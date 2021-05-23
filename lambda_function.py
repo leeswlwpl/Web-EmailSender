@@ -28,8 +28,6 @@ def initial_setup():
         print("File copy finished")
 
 def getMessage(body):
-    print("findRepairman")
-    
 
     # For email structure
     if (body.get('toEmail')):
